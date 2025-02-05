@@ -1,0 +1,14 @@
+---
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: linstor-controller-internal-tls
+spec:
+  issuerRef:
+    name: FILLME
+  secretName: linstor-controller-internal-tls
+  commonName: linstor-controller
+  dnsNames:
+  - linstor-controller
+  usages:
+    - "client auth"
