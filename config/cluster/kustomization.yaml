@@ -3,4 +3,4 @@ kind: Kustomization
 resources:
   - linstorcluster.yaml
   - linstorsatelliteconfig.yaml
-  - storageclass
+  - storageclass.yaml
