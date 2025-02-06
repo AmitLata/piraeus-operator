@@ -22,7 +22,6 @@ resources:
 - ../manager
 - ../webhook
 - ../gencert
-- ../cluster
 
 patches:
 - path: manager_webhook_patch.yaml
